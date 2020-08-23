@@ -1,0 +1,338 @@
+5, 6, 7, 8, 9
+
+3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5
+
+[src/main.rs:200] i = 0
+[src/main.rs:212] i = 0
+[src/main.rs:213] &inputs = [
+    9,
+    0,
+]
+[src/main.rs:214] &pointers[i] = 0
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,5,5"
+[src/main.rs:229] result = Ok(
+    5,
+)
+[src/main.rs:200] i = 1
+[src/main.rs:212] i = 1
+[src/main.rs:213] &inputs = [
+    8,
+    5,
+]
+[src/main.rs:214] &pointers[i] = 0
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,14,5"
+[src/main.rs:229] result = Ok(
+    14,
+)
+[src/main.rs:200] i = 2
+[src/main.rs:212] i = 2
+[src/main.rs:213] &inputs = [
+    7,
+    14,
+]
+[src/main.rs:214] &pointers[i] = 0
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,31,5"
+[src/main.rs:229] result = Ok(
+    31,
+)
+[src/main.rs:200] i = 3
+[src/main.rs:212] i = 3
+[src/main.rs:213] &inputs = [
+    6,
+    31,
+]
+[src/main.rs:214] &pointers[i] = 0
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,64,5"
+[src/main.rs:229] result = Ok(
+    64,
+)
+[src/main.rs:200] i = 4
+[src/main.rs:212] i = 4
+[src/main.rs:213] &inputs = [
+    5,
+    64,
+]
+[src/main.rs:214] &pointers[i] = 0
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,129,5"
+[src/main.rs:229] result = Ok(
+    129,
+)
+[src/main.rs:200] i = 5
+[src/main.rs:212] i = 0
+[src/main.rs:213] &inputs = [
+    129,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,5,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,263,4"
+[src/main.rs:229] result = Ok(
+    263,
+)
+[src/main.rs:200] i = 1
+[src/main.rs:212] i = 1
+[src/main.rs:213] &inputs = [
+    8,
+    263,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,14,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,4"
+[src/main.rs:229] result = Ok(
+    20,
+)
+[src/main.rs:200] i = 2
+[src/main.rs:212] i = 2
+[src/main.rs:213] &inputs = [
+    7,
+    20,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,31,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,4"
+[src/main.rs:229] result = Ok(
+    17,
+)
+[src/main.rs:200] i = 3
+[src/main.rs:212] i = 3
+[src/main.rs:213] &inputs = [
+    6,
+    17,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,64,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,4"
+[src/main.rs:229] result = Ok(
+    14,
+)
+[src/main.rs:200] i = 4
+[src/main.rs:212] i = 4
+[src/main.rs:213] &inputs = [
+    5,
+    14,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,129,5"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,4"
+[src/main.rs:229] result = Ok(
+    11,
+)
+[src/main.rs:200] i = 5
+[src/main.rs:212] i = 0
+[src/main.rs:213] &inputs = [
+    11,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,263,4"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,3"
+[src/main.rs:229] result = Ok(
+    27,
+)
+[src/main.rs:200] i = 1
+[src/main.rs:212] i = 1
+[src/main.rs:213] &inputs = [
+    8,
+    27,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,4"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,3"
+[src/main.rs:229] result = Ok(
+    20,
+)
+[src/main.rs:200] i = 2
+[src/main.rs:212] i = 2
+[src/main.rs:213] &inputs = [
+    7,
+    20,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,4"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,3"
+[src/main.rs:229] result = Ok(
+    17,
+)
+[src/main.rs:200] i = 3
+[src/main.rs:212] i = 3
+[src/main.rs:213] &inputs = [
+    6,
+    17,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,4"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,3"
+[src/main.rs:229] result = Ok(
+    14,
+)
+[src/main.rs:200] i = 4
+[src/main.rs:212] i = 4
+[src/main.rs:213] &inputs = [
+    5,
+    14,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,4"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,3"
+[src/main.rs:229] result = Ok(
+    11,
+)
+[src/main.rs:200] i = 5
+[src/main.rs:212] i = 0
+[src/main.rs:213] &inputs = [
+    11,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,3"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,2"
+[src/main.rs:229] result = Ok(
+    27,
+)
+[src/main.rs:200] i = 1
+[src/main.rs:212] i = 1
+[src/main.rs:213] &inputs = [
+    8,
+    27,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,3"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,2"
+[src/main.rs:229] result = Ok(
+    20,
+)
+[src/main.rs:200] i = 2
+[src/main.rs:212] i = 2
+[src/main.rs:213] &inputs = [
+    7,
+    20,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,3"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,2"
+[src/main.rs:229] result = Ok(
+    17,
+)
+[src/main.rs:200] i = 3
+[src/main.rs:212] i = 3
+[src/main.rs:213] &inputs = [
+    6,
+    17,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,3"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,2"
+[src/main.rs:229] result = Ok(
+    14,
+)
+[src/main.rs:200] i = 4
+[src/main.rs:212] i = 4
+[src/main.rs:213] &inputs = [
+    5,
+    14,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,3"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,2"
+[src/main.rs:229] result = Ok(
+    11,
+)
+[src/main.rs:200] i = 5
+[src/main.rs:212] i = 0
+[src/main.rs:213] &inputs = [
+    11,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,2"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,1"
+[src/main.rs:229] result = Ok(
+    27,
+)
+[src/main.rs:200] i = 1
+[src/main.rs:212] i = 1
+[src/main.rs:213] &inputs = [
+    8,
+    27,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,2"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,4,20,1"
+[src/main.rs:229] result = Ok(
+    20,
+)
+[src/main.rs:200] i = 2
+[src/main.rs:212] i = 2
+[src/main.rs:213] &inputs = [
+    7,
+    20,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,2"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,3,17,1"
+[src/main.rs:229] result = Ok(
+    17,
+)
+[src/main.rs:200] i = 3
+[src/main.rs:212] i = 3
+[src/main.rs:213] &inputs = [
+    6,
+    17,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,2"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,2,14,1"
+[src/main.rs:229] result = Ok(
+    14,
+)
+[src/main.rs:200] i = 4
+[src/main.rs:212] i = 4
+[src/main.rs:213] &inputs = [
+    5,
+    14,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,2"
+[src/main.rs:223] &pointers[i] = 18
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,1,11,1"
+[src/main.rs:229] result = Ok(
+    11,
+)
+[src/main.rs:200] i = 5
+[src/main.rs:212] i = 0
+[src/main.rs:213] &inputs = [
+    11,
+]
+[src/main.rs:214] &pointers[i] = 18
+[src/main.rs:215] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,1"
+[src/main.rs:223] &pointers[i] = 25
+[src/main.rs:224] &computers[i].iter().map(|x| x.to_string()).collect::<Vec<String>>().join(",") = "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,5,27,0"
+[src/main.rs:229] result = Err(
+    11,
+)
+11
